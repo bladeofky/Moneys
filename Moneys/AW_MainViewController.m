@@ -8,6 +8,8 @@
 
 #import "AW_MainViewController.h"
 #import "AW_LoginViewController.h"
+#import "AW_FriendsListTableViewController.h"
+#import "AW_AddFriendViewController.h"
 
 @interface AW_MainViewController ()
 
@@ -45,9 +47,18 @@
 
 
 - (IBAction)didPressTransactionButton:(id)sender {
+    
+    AW_FriendsListTableViewController *friendListVC = [[AW_FriendsListTableViewController alloc]init];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:friendListVC];
+    
+    [self presentViewController:navVC animated:YES completion:nil];
 }
 
 - (IBAction)didPressAddFriendButton:(id)sender {
+    AW_AddFriendViewController *addFriendVC = [[AW_AddFriendViewController alloc]init];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:addFriendVC];
+    
+    [self presentViewController:navVC animated:YES completion:nil];
 }
 
 - (IBAction)didPressLogoutButton:(id)sender {

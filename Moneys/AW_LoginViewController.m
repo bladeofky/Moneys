@@ -41,6 +41,7 @@
     user.username = self.userNameTextField.text;
     user.password = self.passwordTextField.text;
     user.email = self.emailTextField.text;
+    user[@"isEditing"] = @NO;
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {

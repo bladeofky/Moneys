@@ -31,6 +31,9 @@
 		E748E57D1A5C6D570098B34F /* AW_LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E748E57B1A5C6D570098B34F /* AW_LoginViewController.xib */; };
 		E748E5811A5C7DFD0098B34F /* AW_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E748E57F1A5C7DFD0098B34F /* AW_MainViewController.m */; };
 		E748E5821A5C7DFD0098B34F /* AW_MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E748E5801A5C7DFD0098B34F /* AW_MainViewController.xib */; };
+		E7610C0F1A646EAA000B8D37 /* AW_FriendsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7610C0E1A646EAA000B8D37 /* AW_FriendsListTableViewController.m */; };
+		E7FA79341A64604100272AD4 /* AW_AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA79321A64604100272AD4 /* AW_AddFriendViewController.m */; };
+		E7FA79351A64604100272AD4 /* AW_AddFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FA79331A64604100272AD4 /* AW_AddFriendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,11 @@
 		E748E57E1A5C7DFD0098B34F /* AW_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AW_MainViewController.h; sourceTree = "<group>"; };
 		E748E57F1A5C7DFD0098B34F /* AW_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AW_MainViewController.m; sourceTree = "<group>"; };
 		E748E5801A5C7DFD0098B34F /* AW_MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AW_MainViewController.xib; sourceTree = "<group>"; };
+		E7610C0D1A646EAA000B8D37 /* AW_FriendsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AW_FriendsListTableViewController.h; path = ../AW_FriendsListTableViewController.h; sourceTree = "<group>"; };
+		E7610C0E1A646EAA000B8D37 /* AW_FriendsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AW_FriendsListTableViewController.m; path = ../AW_FriendsListTableViewController.m; sourceTree = "<group>"; };
+		E7FA79311A64604100272AD4 /* AW_AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AW_AddFriendViewController.h; sourceTree = "<group>"; };
+		E7FA79321A64604100272AD4 /* AW_AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AW_AddFriendViewController.m; sourceTree = "<group>"; };
+		E7FA79331A64604100272AD4 /* AW_AddFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AW_AddFriendViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,11 @@
 				E748E57E1A5C7DFD0098B34F /* AW_MainViewController.h */,
 				E748E57F1A5C7DFD0098B34F /* AW_MainViewController.m */,
 				E748E5801A5C7DFD0098B34F /* AW_MainViewController.xib */,
+				E7610C0D1A646EAA000B8D37 /* AW_FriendsListTableViewController.h */,
+				E7610C0E1A646EAA000B8D37 /* AW_FriendsListTableViewController.m */,
+				E7FA79311A64604100272AD4 /* AW_AddFriendViewController.h */,
+				E7FA79321A64604100272AD4 /* AW_AddFriendViewController.m */,
+				E7FA79331A64604100272AD4 /* AW_AddFriendViewController.xib */,
 				E748E5401A5C63610098B34F /* Images.xcassets */,
 				E748E5421A5C63610098B34F /* LaunchScreen.xib */,
 				E748E5331A5C63610098B34F /* Supporting Files */,
@@ -284,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E748E5441A5C63610098B34F /* LaunchScreen.xib in Resources */,
+				E7FA79351A64604100272AD4 /* AW_AddFriendViewController.xib in Resources */,
 				E748E5821A5C7DFD0098B34F /* AW_MainViewController.xib in Resources */,
 				E748E5411A5C63610098B34F /* Images.xcassets in Resources */,
 				E748E57D1A5C6D570098B34F /* AW_LoginViewController.xib in Resources */,
@@ -304,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FA79341A64604100272AD4 /* AW_AddFriendViewController.m in Sources */,
 				E748E5391A5C63610098B34F /* AppDelegate.m in Sources */,
 				E748E5811A5C7DFD0098B34F /* AW_MainViewController.m in Sources */,
+				E7610C0F1A646EAA000B8D37 /* AW_FriendsListTableViewController.m in Sources */,
 				E748E57C1A5C6D570098B34F /* AW_LoginViewController.m in Sources */,
 				E748E5361A5C63610098B34F /* main.m in Sources */,
 			);
@@ -498,6 +514,7 @@
 				E748E5551A5C63610098B34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E748E5561A5C63610098B34F /* Build configuration list for PBXNativeTarget "MoneysTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				E748E5581A5C63610098B34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
